@@ -49,7 +49,7 @@ export default function Education() {
           </li>
           <li className="flex items-center">
             <span className="text-yellow-500 mr-2">⚡</span>
-            Mastered core courses in Data Structures, Algorithms, and Database Management Systems.
+            Mastered core courses in Operating Systems, Algorithms, and Web Application Development.
           </li>
         </ul>
       </div>
