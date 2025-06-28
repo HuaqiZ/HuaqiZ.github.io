@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  @apply mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0 bg-gray-800;
+}
+
+@layer components {
+  .sidebar {
+    /* @apply fixed top-0 left-0 h-screen w-64 p-6 bg-gray-800 shadow-lg z-10; */
+    @apply lg:sticky lg:top-0 lg:flex left-0 lg:max-h-screen lg:w-[48%] lg:flex-col space-y-4 p-6 z-10 lg:py-24 bg-gray-800;
+  }
+
+  .main-content {
+    @apply ml-64 p-6 min-h-screen overflow-y-auto;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4;
+  }
+}
