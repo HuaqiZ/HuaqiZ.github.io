@@ -14,7 +14,7 @@ export default function Projects() {
       className="py-24"
     >
       
-    <a href="#" className="flex flex-col rounded-lg md:flex-row md:max-w-xl items-end hover:bg-gray-700/30">
+    <a href="https://profile.theepochtimes.com/" className="flex flex-col rounded-lg md:flex-row md:max-w-xl items-end hover:bg-gray-700/30" target="_blank" rel="noopener noreferrer">
         <img src="/customerportal.jpg" className="object-cover w-[200px] rounded" alt="Logo" />
         <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-xl font-medium tracking-tight text-slate-200">Customer Portal</h5>
@@ -22,13 +22,13 @@ export default function Projects() {
         </div>
     </a>
 
-     <a href="#" className="flex flex-col rounded-lg md:flex-row md:max-w-xl items-end hover:bg-gray-700/30">
+     <div className="flex flex-col rounded-lg md:flex-row md:max-w-xl items-end hover:bg-gray-700/30">
         <img src="/social.jpg" className="object-cover w-[200px] rounded" alt="Logo" />
         <div className="flex flex-col justify-between p-4 leading-normal">
             <h5 className="mb-2 text-xl font-medium tracking-tight text-slate-200">Social Platform with CMS</h5>
             <p className="mt-2 text-sm text-slate-400">Built an interactive content-sharing platform with CMS-level account management for offical users. </p>
         </div>
-    </a>
+    </div>
     </motion.div>
   );
 }

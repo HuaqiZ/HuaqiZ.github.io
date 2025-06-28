@@ -40,10 +40,8 @@ export default function Experience() {
           transition={{ duration: 2.0, ease: [0.17, 0.67, 0.83, 0.67] }} // Increased to 2.0 seconds
           className="space-y-6" // Vertical spacing between cards
         >
-          <motion.a
-            href="#"
+          <motion.div
             whileHover={{ scale: 1.1, backgroundColor: '#1F2A44' }} // Darker hover with scale
-            whileTap={{ scale: 0.8 }}
             transition={{
               type: "spring",
               stiffness: 200,
@@ -76,11 +74,9 @@ export default function Experience() {
                   Diagnosed and fixed production bugs across core features; introduced reusable code patterns and improved maintainability through <span className="font-bold text-slate-200">ESLint</span> and component refactors.
                 </li>
               </ul>
-          </motion.a>
-          <motion.a
-            href="#"
+          </motion.div>
+          <motion.div
             whileHover={{ scale: 1.1, backgroundColor: '#1F2A44' }} // Darker hover with scale
-            whileTap={{ scale: 0.8 }}
             transition={{
               type: "spring",
               stiffness: 200,
@@ -107,7 +103,7 @@ export default function Experience() {
                   Gained practical experience working in an agile team environment, consistently meeting sprint goals and effectively communicating progress during daily stand-ups.
                 </li>
               </ul>
-          </motion.a>
+          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>

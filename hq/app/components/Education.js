@@ -31,7 +31,7 @@ export default function Education() {
           <p className="text-sm">2018 - 2022</p>
         </div>
         <img
-          src="./favicon.ico" // Replace with your logo path
+          src="/SUNY.png" // Replace with your logo path
           alt="IIIT Kurnool Logo"
           className="w-12 h-12 rounded-full object-cover"
         />
