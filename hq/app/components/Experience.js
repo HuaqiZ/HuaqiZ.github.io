@@ -52,26 +52,26 @@ export default function Experience() {
             className="block max-w-lg p-6 bg-transparent rounded-lg hover:bg-gray-700/30 border border-gray-200 shadow-sm"
           >
             <h3 className="font-medium mb-2 text-xl tracking-tight text-slate-200">
-              Frontend Developer
+              Software Developer
             </h3>
               <ul className="mt-2 text-sm text-slate-400 list-disc ml-2">
                 <li>
-                Contribute to the redesign and development of a customer portal serving 1M+ users using <span className="font-bold text-slate-200">TypeScript</span>, <span className="font-bold text-slate-200">React</span>, <span className="font-bold text-slate-200">Redux</span>, and <span className="font-bold text-slate-200">Next.js</span>; helped improve login reliability and streamlined account workflows based on user feedback.
+                  Implemented core features for a customer portal serving <span className="font-bold text-slate-200">1M+ users</span>, replacing a legacy <span className="font-bold text-slate-200">WordPress</span>-based system. Reduced <span className="font-bold text-slate-200">page load times by ~60%</span> and log-in delays by several seconds, improving access reliability through <span className="font-bold text-slate-200">React</span>-based optimizations and user feedback-driven enhancements.
                 </li>
                 <li>
-                  Implemented a responsive social interaction platform using <span className="font-bold text-slate-200">React</span> and <span className="font-bold text-slate-200">Tailwind CSS</span>; created a custom <span className="font-bold text-slate-200">Strapi</span> API endpoint to automate account management for verified users, reducing manual admin work by 60%.
+                  Built responsive UI components for a social interaction platform using <span className="font-bold text-slate-200">React, TypeScript, Next.js, and Tailwind CSS</span>; integrated custom API endpoints into <span className="font-bold text-slate-200">Strapi CMS</span> to manage verified user accounts and streamline publishing workflows.
                 </li>
                 <li>
-                  Developed a modular configuration tool for paywall and content rules using <span className="font-bold text-slate-200">React</span> and <span className="font-bold text-slate-200">Redux</span>; replaced a legacy system, improving campaign setup efficiency for the marketing team from hours to under 30 minutes.
+                  Enabled a <span className="font-bold text-slate-200">10–15 person marketing team</span> to reduce setup time for paywall-related campaigns from <span className="font-bold text-slate-200">hours</span> to <span className="font-bold text-slate-200">less than 30 minutes</span> by replacing a legacy tool with a streamlined configuration interface built in <span className="font-bold text-slate-200">React</span> and <span className="font-bold text-slate-200">Redux</span>.
                 </li>
                 <li>
-                  Built interactive UI components with real-time validation, dynamic autocomplete, and responsive layouts to support seamless user experiences.
+                  Created interactive UI components with <span className="font-bold text-slate-200">real-time validation</span> using custom logic and <span className="font-bold text-slate-200">React’s useEffect</span>, enhancing form responsiveness and input accuracy. Utilized <span className="font-bold text-slate-200">semantic HTML</span> and ensured basic <span className="font-bold text-slate-200">accessibility standards</span> (e.g., keyboard navigation, screen-reader labels) in customer-facing UIs.
                 </li>
                 <li>
-                  Collaborated with UI/UX designers to translate mockups into accessible, high-performance web interfaces across browsers and screen sizes.
+                  Translated <span className="font-bold text-slate-200">Figma</span> mockups into accessible web pages and resolved production bugs, improving maintainability through reusable patterns and <span className="font-bold text-slate-200">ESLint</span> rules.
                 </li>
                 <li>
-                  Diagnosed and fixed production bugs across core features; introduced reusable code patterns and improved maintainability through <span className="font-bold text-slate-200">ESLint</span> and component refactors.
+                  Conducted <span className="font-bold text-slate-200">Postman</span>-based API testing and manual validation to ensure authentication and subscription reliability across environments.
                 </li>
               </ul>
           </motion.div>
@@ -91,16 +91,13 @@ export default function Experience() {
             </h3>
             <ul className="mt-2 text-sm text-slate-400 list-disc ml-2">
                 <li>
-                Collaborated with frontend developers to enhance UI components and implement layout updates based on design specifications using <span className="font-bold text-slate-200">React</span>, <span className="font-bold text-slate-200">TypeScript</span>, and <span className="font-bold text-slate-200">CSS</span>.
+                  Updated UI layouts and interface components using <span className="font-bold text-slate-200">React</span>, <span className="font-bold text-slate-200">TypeScript</span>, and <span className="font-bold text-slate-200">CSS</span>, ensuring alignment with provided design specifications.
                 </li>
                 <li>
-                  Identified and resolved user-facing bugs across key views, improving UI responsiveness and reducing visual inconsistencies in production builds.
+                  Contributed to a <span className="font-bold text-slate-200">React</span>-based video management tool by adding minor features and UI enhancements, working within established code structures to support <span className="font-bold text-slate-200">upload</span> and <span className="font-bold text-slate-200">preview functionality</span>.
                 </li>
                 <li>
-                  Contributed to a video management platform by building features that supported file uploads, preview, and metadata handling, gaining hands-on experience with asynchronous operations and UI state synchronization.
-                </li>
-                <li>
-                  Gained practical experience working in an agile team environment, consistently meeting sprint goals and effectively communicating progress during daily stand-ups.
+                  Improved interface consistency by resolving <span className="font-bold text-slate-200">layout bugs</span> and refining interactive behavior across key views, adhering to internal styling and logic conventions.
                 </li>
               </ul>
           </motion.div>
